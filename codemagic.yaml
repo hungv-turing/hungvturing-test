@@ -3,8 +3,6 @@ workflows:
     name: Native Android
     max_build_duration: 120
     instance_type: mac_mini_m1
-    vars:
-        PACKAGE_NAME: "io.codemagic.androidquicksample"
     scripts:
       - name: Set Android SDK location
         script: |
